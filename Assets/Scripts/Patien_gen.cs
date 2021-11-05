@@ -6,7 +6,7 @@ public class Patien_gen : MonoBehaviour
 
     [SerializeField] GameObject[] _patientCards = new GameObject[10];
 
-    private string[] _patientNames = { "Василий", "Петр", "Кирилл", "Диана", "Екатерина", "Полина", "Данил", "Олег" };
+    private string[] _patientNames = { "Василий", "Петр", "Кирилл", "Диана", "Екатерина", "Полина", "Данил", "Олег", "Лев" };
     void Start()
     {
         for (int i = 0; i <= _patientCards.Length - 1; i++)
