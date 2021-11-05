@@ -5787,6 +5787,7 @@ GameObject:
   - component: {fileID: 1767122634}
   - component: {fileID: 1767122633}
   - component: {fileID: 1767122632}
+  - component: {fileID: 1767122635}
   m_Layer: 5
   m_Name: prev_page_button
   m_TagString: Untagged
@@ -5857,7 +5858,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1767122633}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1767122635}
+        m_TargetAssemblyTypeName: prev_card_button, Assembly-CSharp
+        m_MethodName: back_card
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1767122633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5896,6 +5909,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767122630}
   m_CullTransparentMesh: 1
+--- !u!114 &1767122635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767122630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51802edd059612e4f86c4985c1577a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientCards:
+  - {fileID: 1966977757}
+  - {fileID: 103580584}
+  - {fileID: 594947824}
+  - {fileID: 602182711}
+  - {fileID: 83921049}
+  - {fileID: 2029297307}
+  - {fileID: 151594313}
+  - {fileID: 87276065}
+  - {fileID: 693244516}
+  - {fileID: 789077674}
 --- !u!1 &1775276798
 GameObject:
   m_ObjectHideFlags: 0
@@ -6961,6 +6997,7 @@ GameObject:
   - component: {fileID: 1942456395}
   - component: {fileID: 1942456394}
   - component: {fileID: 1942456393}
+  - component: {fileID: 1942456396}
   m_Layer: 5
   m_Name: next_page_button
   m_TagString: Untagged
@@ -7031,7 +7068,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1942456394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1942456396}
+        m_TargetAssemblyTypeName: next_card_button, Assembly-CSharp
+        m_MethodName: next_card
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1942456394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7070,6 +7119,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942456391}
   m_CullTransparentMesh: 1
+--- !u!114 &1942456396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942456391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5ecd1313c681341afae39d71344153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientCards:
+  - {fileID: 1966977757}
+  - {fileID: 103580584}
+  - {fileID: 594947824}
+  - {fileID: 602182711}
+  - {fileID: 83921049}
+  - {fileID: 2029297307}
+  - {fileID: 151594313}
+  - {fileID: 87276065}
+  - {fileID: 693244516}
+  - {fileID: 789077674}
 --- !u!1 &1943609449
 GameObject:
   m_ObjectHideFlags: 0

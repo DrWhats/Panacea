@@ -1,18 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class prev_card_button : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] GameObject[] _patientCards = new GameObject[10];
+
+    public void back_card()
     {
-        
+        for (int i = _patientCards.Length - 1; i >= 0; i--)
+        {
+            if (i == 0)
+            {
+                break;
+            }
+            if (_patientCards[i].active == false)
+            {
+
+            }
+            if (_patientCards[i].active == true)
+            {
+                _patientCards[i].SetActive(false);
+                i--;
+                _patientCards[i].SetActive(true);
+                break;
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
