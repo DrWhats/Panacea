@@ -2,13 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test_vaccine : MonoBehaviour
+public class minigameCurrentPatient : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    [SerializeField] private Patient_info currentPatient;
-
-    //[SerializeField] private minigameCurrentPatient;
     void Start()
     {
         
@@ -19,12 +15,4 @@ public class Test_vaccine : MonoBehaviour
     {
         
     }
-
-    public void startMiniGame()
-    {
-        
-    }
-    
-    
-    
 }
