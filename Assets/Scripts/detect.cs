@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class detect : MonoBehaviour
 {
-    private void OnCollisionEnter()
+    public void IsTouching(Collider2D other)
     {
         Debug.Log("detected");
     }

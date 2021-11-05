@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class current_vaccine : MonoBehaviour
@@ -34,17 +31,4 @@ public class current_vaccine : MonoBehaviour
         
         
     }
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
-    
 }
