@@ -23,12 +23,9 @@ public class Patien_gen : MonoBehaviour
 
         foreach (var card in _patientCards)
         {
-            var text_name = card.transform.Find("Patient_name").gameObject.GetComponent<Text>();
-            int element = Random.Range(0, _patientNames.Length);
-            text_name.text = _patientNames[element];
 
-            var text_age = card.transform.Find("Patient_age").gameObject.GetComponent<Text>();
-            text_age.text = Random.Range(20, 30).ToString();
+            card.GetComponent<Patient_info>().setName(_patientNames[Random.Range(0, _patientNames.Length)]);
+            card.GetComponent<Patient_info>().setAge(Random.Range(20, 30).ToString());
         }
     }
 }
