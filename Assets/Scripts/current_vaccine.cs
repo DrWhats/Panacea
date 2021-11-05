@@ -32,4 +32,12 @@ public class current_vaccine : MonoBehaviour
         
         
     }
+
+    public void resetElements()
+    {
+            Elem_1 = 0;
+            Elem_2 = 0;
+            Elem_3 = 0;
+            Elem_4 = 0;
+    }
 }

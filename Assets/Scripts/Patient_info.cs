@@ -25,6 +25,8 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private Text third_GameObjects;
     [SerializeField] private Text fourth_GameObjects;
 
+    [SerializeField] private GameObject test_vaccine;
+    [SerializeField] private toDefault _toDefault;
    
     
     Dictionary<int, string> comp_dict = new Dictionary<int, string>
@@ -122,6 +124,14 @@ public class Patient_info : MonoBehaviour
     {
         _age = Age;
         _patientAge.text = Age;
+    }
+
+    public void Vaccinated()
+    {
+        test_vaccine.SetActive(false);
+        _vaccinated = true;
+        _toDefault.ResetElements();
+        
     }
 
     public void setEff(int efficiency)

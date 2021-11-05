@@ -30,6 +30,8 @@ public class minigameCurrentPatient : MonoBehaviour
     [SerializeField] private Animator _animatorNeedle;
     
     [SerializeField] private GameObject Needle;
+    [SerializeField] private GameObject Main_UI;
+    [SerializeField] private Animator MiniGamePanel;
 
     public void startMinigame()
     {
@@ -53,6 +55,29 @@ public class minigameCurrentPatient : MonoBehaviour
         _animatorHand.enabled = false;
         _animatorNeedle.Play("Needle_activate");
         
+    }
+
+    public void NeedleSuccess()
+    {
+        MiniGamePanel.Play("Desk_close");
+        Debug.Log("1");
+            
+        _animatorHand.enabled = true;
+        Debug.Log("2");
+        _animatorNeedle.Play("Needle_deactivate");
+        Debug.Log("3");
+        currPatient.Vaccinated();
+        Debug.Log("4");
+        Main_UI.SetActive(true);
+        Debug.Log("5");
+        
+        currVaccine.resetElements();
+    }
+
+    public void NeedleFail()
+    {
+        _animatorHand.enabled = true;
+        _animatorNeedle.Play("Needle_deactivate");
     }
 
     void changeSpeed()
