@@ -560,6 +560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83921050}
   - component: {fileID: 83921051}
+  - component: {fileID: 83921052}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     5"
@@ -640,6 +641,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &83921052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83921049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 5
+  _name: 
+  _patientName: {fileID: 1624224747}
+  _age: 
+  _patientAge: {fileID: 30000503}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 1606116101}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 137689245}
+  second_GameObjects: {fileID: 841793727}
+  third_GameObjects: {fileID: 1119196352}
+  fourth_GameObjects: {fileID: 1641256979}
 --- !u!1 &87276065
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,6 +680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87276066}
   - component: {fileID: 87276067}
+  - component: {fileID: 87276068}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     8"
@@ -730,6 +761,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &87276068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87276065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 8
+  _name: 
+  _patientName: {fileID: 2024452845}
+  _age: 
+  _patientAge: {fileID: 1337831769}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 481236629}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 1521400806}
+  second_GameObjects: {fileID: 1114430280}
+  third_GameObjects: {fileID: 1763737874}
+  fourth_GameObjects: {fileID: 1651651727}
 --- !u!1 &103580584
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103580585}
   - component: {fileID: 103580586}
+  - component: {fileID: 103580587}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     2"
@@ -820,6 +881,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &103580587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103580584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 2
+  _name: 
+  _patientName: {fileID: 2078125851}
+  _age: 
+  _patientAge: {fileID: 1460330233}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 60317209}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 1822011169}
+  second_GameObjects: {fileID: 1633861250}
+  third_GameObjects: {fileID: 1775276800}
+  fourth_GameObjects: {fileID: 211240783}
 --- !u!1 &117337028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 151594314}
   - component: {fileID: 151594315}
+  - component: {fileID: 151594316}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     7"
@@ -1110,6 +1201,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &151594316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151594313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 7
+  _name: 
+  _patientName: {fileID: 2007304382}
+  _age: 
+  _patientAge: {fileID: 1103971064}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 798915177}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 873800835}
+  second_GameObjects: {fileID: 1622324084}
+  third_GameObjects: {fileID: 1204993673}
+  fourth_GameObjects: {fileID: 1707435200}
 --- !u!1 &159229315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2305,6 +2425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594947825}
   - component: {fileID: 594947826}
+  - component: {fileID: 594947827}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     3"
@@ -2385,6 +2506,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &594947827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594947824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 3
+  _name: 
+  _patientName: {fileID: 2057868050}
+  _age: 
+  _patientAge: {fileID: 829447429}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 1685252118}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 720918083}
+  second_GameObjects: {fileID: 1383961127}
+  third_GameObjects: {fileID: 501905006}
+  fourth_GameObjects: {fileID: 1880214571}
 --- !u!1 &602182711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,6 +2545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602182712}
   - component: {fileID: 602182713}
+  - component: {fileID: 602182714}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     4"
@@ -2475,6 +2626,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &602182714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602182711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 4
+  _name: 
+  _patientName: {fileID: 608156913}
+  _age: 
+  _patientAge: {fileID: 405000359}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 1971535296}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 1881796686}
+  second_GameObjects: {fileID: 159229317}
+  third_GameObjects: {fileID: 1481236930}
+  fourth_GameObjects: {fileID: 1559025015}
 --- !u!1 &608156911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,6 +2744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 693244517}
   - component: {fileID: 693244518}
+  - component: {fileID: 693244519}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     9"
@@ -2644,6 +2825,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &693244519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693244516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 9
+  _name: 
+  _patientName: {fileID: 949916524}
+  _age: 
+  _patientAge: {fileID: 1649454900}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 206484713}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 165922640}
+  second_GameObjects: {fileID: 1932177370}
+  third_GameObjects: {fileID: 1912492594}
+  fourth_GameObjects: {fileID: 1727805950}
 --- !u!1 &714147856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2833,6 +3043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 789077675}
   - component: {fileID: 789077676}
+  - component: {fileID: 789077677}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     10"
@@ -2913,6 +3124,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &789077677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789077674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 10
+  _name: 
+  _patientName: {fileID: 1643939837}
+  _age: 
+  _patientAge: {fileID: 388034990}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 279368065}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 1966167286}
+  second_GameObjects: {fileID: 200962122}
+  third_GameObjects: {fileID: 976121080}
+  fourth_GameObjects: {fileID: 1133242355}
 --- !u!1 &798915175
 GameObject:
   m_ObjectHideFlags: 0
@@ -7695,6 +7935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1966977758}
   - component: {fileID: 1966977759}
+  - component: {fileID: 1966977760}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     1"
@@ -7775,6 +8016,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1966977760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966977757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 1
+  _name: 
+  _patientName: {fileID: 1479340118}
+  _age: 
+  _patientAge: {fileID: 1794545459}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 439991598}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 518537348}
+  second_GameObjects: {fileID: 1912159814}
+  third_GameObjects: {fileID: 1090660508}
+  fourth_GameObjects: {fileID: 352517331}
 --- !u!1 &1971535294
 GameObject:
   m_ObjectHideFlags: 0
@@ -8180,6 +8450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2029297308}
   - component: {fileID: 2029297309}
+  - component: {fileID: 2029297310}
   m_Layer: 0
   m_Name: "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u043F\u0430\u0446\u0438\u0435\u043D\u0442\u0430
     6"
@@ -8260,6 +8531,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2029297310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029297307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fffc9b710780604cac286dbb33cf9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _patientID: 6
+  _name: 
+  _patientName: {fileID: 1804323633}
+  _age: 
+  _patientAge: {fileID: 2129460747}
+  _vaccinated: 0
+  _efficiency: 0
+  _patientEfficiency: {fileID: 374660186}
+  _elementsID: 00000000000000000000000000000000
+  Element_first: 
+  Element_second: 
+  Element_third: 
+  Element_fourth: 
+  first_GameObjects: {fileID: 1943609451}
+  second_GameObjects: {fileID: 1983968355}
+  third_GameObjects: {fileID: 2019305259}
+  fourth_GameObjects: {fileID: 1287121764}
 --- !u!1 &2057868048
 GameObject:
   m_ObjectHideFlags: 0
