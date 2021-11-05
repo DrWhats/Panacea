@@ -11,6 +11,7 @@ public class current_vaccine : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         if (Elem_1 == 0)
         {
             Elem_1 = other.gameObject.GetComponent<element>().id;
