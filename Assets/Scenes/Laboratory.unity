@@ -655,21 +655,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 5
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 1624224747}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 30000503}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 1606116101}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 137689245}
+  second_GameObjects: {fileID: 841793727}
+  third_GameObjects: {fileID: 1119196352}
+  fourth_GameObjects: {fileID: 1641256979}
 --- !u!1 &87276065
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,21 +775,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 8
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 2024452845}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 1337831769}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 481236629}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 1521400806}
+  second_GameObjects: {fileID: 1114430280}
+  third_GameObjects: {fileID: 1763737874}
+  fourth_GameObjects: {fileID: 1651651727}
 --- !u!1 &103580584
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,21 +895,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 2
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 2078125851}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 1460330233}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 60317209}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 1822011169}
+  second_GameObjects: {fileID: 1633861250}
+  third_GameObjects: {fileID: 1775276800}
+  fourth_GameObjects: {fileID: 211240783}
 --- !u!1 &117337028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,21 +1215,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 7
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 2007304382}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 1103971064}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 798915177}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 873800835}
+  second_GameObjects: {fileID: 1622324084}
+  third_GameObjects: {fileID: 1204993673}
+  fourth_GameObjects: {fileID: 1707435200}
 --- !u!1 &159229315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,21 +2520,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 3
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 2057868050}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 829447429}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 1685252118}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 720918083}
+  second_GameObjects: {fileID: 1383961127}
+  third_GameObjects: {fileID: 501905006}
+  fourth_GameObjects: {fileID: 1880214571}
 --- !u!1 &602182711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2640,21 +2640,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 4
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 608156913}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 405000359}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 1971535296}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 1881796686}
+  second_GameObjects: {fileID: 159229317}
+  third_GameObjects: {fileID: 1481236930}
+  fourth_GameObjects: {fileID: 1559025015}
 --- !u!1 &608156911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2839,21 +2839,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 9
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 949916524}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 1649454900}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 206484713}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 165922640}
+  second_GameObjects: {fileID: 1932177370}
+  third_GameObjects: {fileID: 1912492594}
+  fourth_GameObjects: {fileID: 1727805950}
 --- !u!1 &714147856
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,21 +3138,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 10
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 1643939837}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 388034990}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 279368065}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 1966167286}
+  second_GameObjects: {fileID: 200962122}
+  third_GameObjects: {fileID: 976121080}
+  fourth_GameObjects: {fileID: 1133242355}
 --- !u!1 &798915175
 GameObject:
   m_ObjectHideFlags: 0
@@ -8545,21 +8545,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patientID: 6
   _name: 
-  _patientName: {fileID: 0}
+  _patientName: {fileID: 1804323633}
   _age: 
-  _patientAge: {fileID: 0}
+  _patientAge: {fileID: 2129460747}
   _vaccinated: 0
   _efficiency: 0
-  _patientEfficiency: {fileID: 0}
+  _patientEfficiency: {fileID: 374660186}
   _elementsID: 00000000000000000000000000000000
   Element_first: 
   Element_second: 
   Element_third: 
   Element_fourth: 
-  first_GameObjects: {fileID: 0}
-  second_GameObjects: {fileID: 0}
-  third_GameObjects: {fileID: 0}
-  fourth_GameObjects: {fileID: 0}
+  first_GameObjects: {fileID: 1943609451}
+  second_GameObjects: {fileID: 1983968355}
+  third_GameObjects: {fileID: 2019305259}
+  fourth_GameObjects: {fileID: 1287121764}
 --- !u!1 &2057868048
 GameObject:
   m_ObjectHideFlags: 0
