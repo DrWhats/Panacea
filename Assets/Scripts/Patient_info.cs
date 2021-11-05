@@ -79,9 +79,10 @@ public class Patient_info : MonoBehaviour
     }
 
     //Устанавливаем ID элемента из словаря в один из четырех элементов вакцины (от 0 до 3)
-    void setElementInfo(int setElement, int toPosition)
+    public void setElementInfo(int setElement, int toPosition)
     {
         _elementsID[toPosition] = setElement;
+        Debug.Log("PEE PEE POO POO CHEEEECK");
         
         if (_elementsID[0] != 0)
         {
@@ -121,5 +122,19 @@ public class Patient_info : MonoBehaviour
     {
         _age = Age;
         _patientAge.text = Age;
+    }
+
+    public void setEff(int efficiency)
+    {
+        if (efficiency == -1)
+        {
+            _patientEfficiency.text = "НЕ ИСПЫТАНО";
+        }
+        else
+        {
+            _efficiency = efficiency;
+            _patientEfficiency.text = _efficiency.ToString() + "%";
+        }
+        
     }
 }

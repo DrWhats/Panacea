@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,32 +23,43 @@ public class minigameCurrentPatient : MonoBehaviour
         {  12 ,"Компливит"},
     };
 
-    private Dictionary<int, bool> used_comp = new Dictionary<int, bool>
-    {
-        {  1 , false},
-        {  2 , false},
-        {  3 , false},
-        {  4 , false},
-        {  5 , false},
-        {  6 , false},
-        {  7 , false},
-        {  8 , false},
-        {  9 , false},
-        {  10 , false},
-        {  11 , false},
-        {  12 , false},
-    };
-
     [SerializeField] public Patient_info currPatient;
+    [SerializeField] private current_vaccine currVaccine;
     [SerializeField] private Text info;
+    [SerializeField] private Animator _animatorHand;
+    [SerializeField] private Animator _animatorNeedle;
+    
+    [SerializeField] private GameObject Needle;
 
     public void startMinigame()
     {
         string name = currPatient._name.ToString();
         string age = currPatient._age.ToString();
         info.text =  name + "," + age;
+        currPatient.setElementInfo(currVaccine.Elem_1,0);
+        currPatient.setElementInfo(currVaccine.Elem_2,1);
+        currPatient.setElementInfo(currVaccine.Elem_3,2);
+        currPatient.setElementInfo(currVaccine.Elem_4,3);
+        currPatient.setEff(-1);
+
+        InvokeRepeating("changeSpeed",2.0f,2.0f);
+       
+
+
     }
 
+    public void stopNeedle()
+    {
+        _animatorHand.enabled = false;
+        _animatorNeedle.Play("Needle_activate");
+        
+    }
+
+    void changeSpeed()
+    {
+        _animatorHand.speed = Random.Range(0.5f, 2.0f);
+        
+    }
     void Start()
     {
         
