@@ -2513,6 +2513,7 @@ GameObject:
   - component: {fileID: 496291220}
   - component: {fileID: 496291219}
   - component: {fileID: 496291218}
+  - component: {fileID: 496291221}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -2596,6 +2597,18 @@ MonoBehaviour:
           m_StringArgument: Desk_show
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 496291221}
+        m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
+        m_MethodName: startMiniGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &496291219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,6 +2647,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496291216}
   m_CullTransparentMesh: 1
+--- !u!114 &496291221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496291216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3568a53a46f3fe74f952c52345340b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPatient: {fileID: 1966977760}
+  minigamePanel: {fileID: 1145821318}
 --- !u!1 &501905004
 GameObject:
   m_ObjectHideFlags: 0
@@ -4812,6 +4839,7 @@ GameObject:
   - component: {fileID: 1145821316}
   - component: {fileID: 1145821315}
   - component: {fileID: 1145821317}
+  - component: {fileID: 1145821318}
   m_Layer: 5
   m_Name: Minigame_panel
   m_TagString: Untagged
@@ -4898,6 +4926,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1145821318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145821313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0318d3fe0561a50418044d8d0fb209ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currPatient: {fileID: 0}
+  info: {fileID: 125044027}
 --- !u!1 &1146026502
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,6 +4991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
+  minigamePanel: {fileID: 0}
 --- !u!114 &1146026505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7649,6 +7692,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0318d3fe0561a50418044d8d0fb209ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currPatient: {fileID: 0}
+  info: {fileID: 0}
 --- !u!1 &1880214569
 GameObject:
   m_ObjectHideFlags: 0

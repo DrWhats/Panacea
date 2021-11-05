@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class Patient_info : MonoBehaviour
 {
     [SerializeField] private int _patientID; //Номер пациента от 1 до 10
-    [SerializeField] private string _name; //Имя
+    [SerializeField] public string _name; //Имя
     [SerializeField] private Text _patientName;
-    [SerializeField] private string _age; //Возраст
+    [SerializeField] public string _age; //Возраст
     [SerializeField] private Text _patientAge;
     [SerializeField] private bool _vaccinated; //Галочка "вакциниррван" или нет
     [SerializeField] private int _efficiency; //Показатель эффективности вакцины
@@ -111,13 +111,13 @@ public class Patient_info : MonoBehaviour
 
     }
 
-    void setName(string Name)
+     public void setName(string Name)
     {
         _name = Name;
-        _patientAge.text = Name;
+        _patientName.text = Name;
     }
     
-    void setAge(string Age)
+    public void setAge(string Age)
     {
         _age = Age;
         _patientAge.text = Age;
