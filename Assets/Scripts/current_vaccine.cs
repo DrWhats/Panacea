@@ -8,6 +8,8 @@ public class current_vaccine : MonoBehaviour
     public int Elem_3 = 0;
     public int Elem_4 = 0;
 
+    public int[] _effectiveElements = new int[4];
+    
     [SerializeField] private bar_indicator bar;
 
 
@@ -39,6 +41,16 @@ public class current_vaccine : MonoBehaviour
         
         
     }
+
+    void Start()
+    {
+        _effectiveElements[0] = Random.Range(1, 3);
+        _effectiveElements[1] = Random.Range(4, 6);
+        _effectiveElements[2] = Random.Range(7, 9);
+        _effectiveElements[3] = Random.Range(10, 12);
+        
+    }
+    
 
     public void resetElements()
     {

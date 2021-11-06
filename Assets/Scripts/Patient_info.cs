@@ -15,7 +15,7 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private Text _patientEfficiency;
     [SerializeField] public bool sex; //true - female, false - male
     
-    [SerializeField] private int[] _elementsID = new int[4];
+    [SerializeField] public int[] _elementsID = new int[4];
     public string Element_first;
     public string Element_second;
     public string Element_third;
@@ -168,7 +168,7 @@ public class Patient_info : MonoBehaviour
         test_vaccine.SetActive(false);
         _vaccinated = true;
         _toDefault.ResetElements();
-        
+           
     }
 
     public void setPicture( )

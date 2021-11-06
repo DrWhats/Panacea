@@ -89,8 +89,19 @@ public class minigameCurrentPatient : MonoBehaviour
         Debug.Log("4");
         Main_UI.SetActive(true);
         Debug.Log("5");
-        
         currVaccine.resetElements();
+        int effect = 0;
+        foreach (var patient_comp in currPatient._elementsID)
+        {
+            foreach (var effective_comp in currVaccine._effectiveElements)
+            {
+                if (patient_comp == effective_comp)
+                {
+                    effect += 25;
+                }
+            }
+        }
+        currPatient.setEff(effect);
     }
 
     public void NeedleFail()
