@@ -28,9 +28,13 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private toDefault _toDefault;
 
     [SerializeField] private SpriteRenderer picture;
-    public Sprite[] femalePictures = new Sprite[1];
-    public Sprite[] malePictures = new Sprite[1];
-   
+    public Sprite[] femalePictures = new Sprite[3];
+    public Sprite[] malePictures = new Sprite[3];
+    public Sprite[] femalePictures_needle = new Sprite[3];
+    public Sprite[] malePictures_needle = new Sprite[3];
+
+    public SpriteRenderer bez_rukava;
+
     private string[] _patientNamesFemale = 
         { "Диана", "Екатерина", "Полина", "Алиса", "Ксения", "Марина", "Мария", "Кира", "Ирина", "Вероника"};
 
@@ -42,10 +46,10 @@ public class Patient_info : MonoBehaviour
         {  1 ,"Вода"},
         {  2 ,"Антисептик"},
         {  3 ,"Лимонная кислота"},
-        {  4 ,"Куриное яйцо"},
+        {  4 ,"Куриные яйца"},
         {  5 ,"Столовая сода"},
         {  6 ,"Крем для лица"},
-        {  7 ,"Грязный платок"},
+        {  7 ,"Пробирка со слизью"},
         {  8 ,"Шерсть орангутанга"},
         {  9 ,"Пробирка с воздухом"},
         {  10 ,"Глицин"},
@@ -94,13 +98,13 @@ public class Patient_info : MonoBehaviour
             
         if (sex == true)
         {
-            setName(_patientNamesFemale[Random.Range(0, _patientNamesFemale.Length-1)]);
+            setName(_patientNamesFemale[Random.Range(0, _patientNamesFemale.Length)]);
             Debug.Log("ТЁЛКА");
                 
         }
         else if (sex == false)
         {
-            setName(_patientNamesMale[Random.Range(0, _patientNamesMale.Length-1)]);
+            setName(_patientNamesMale[Random.Range(0, _patientNamesMale.Length)]);
             Debug.Log("МУЖЫЫЫК");
         }
             
@@ -172,11 +176,18 @@ public class Patient_info : MonoBehaviour
     {
         if (sex)
         {
-            //picture.GetComponent<SpriteRenderer>().sprite = femalePictures[Random.Range(0, femalePictures.Length-1)];
-            picture.sprite = femalePictures[0];
+            int sprite_id = Random.Range(0, femalePictures.Length - 1);
+            picture.sprite = femalePictures[sprite_id];
+            bez_rukava.sprite = femalePictures_needle[sprite_id];
 
-        } else picture.sprite = malePictures[0];
-        //else picture.GetComponent<SpriteRenderer>().sprite = malePictures[Random.Range(0, malePictures.Length)-1];
+
+        }
+        else
+        {
+            int sprite_id = Random.Range(0, malePictures.Length - 1);
+            picture.sprite = malePictures[sprite_id];
+            bez_rukava.sprite = malePictures_needle[sprite_id];
+        }
     }
 
     public void setSex()

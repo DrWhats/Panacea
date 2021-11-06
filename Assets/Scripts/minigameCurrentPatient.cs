@@ -32,11 +32,13 @@ public class minigameCurrentPatient : MonoBehaviour
     [SerializeField] private GameObject Needle;
     [SerializeField] private GameObject Main_UI;
     [SerializeField] private Animator MiniGamePanel;
+    [SerializeField] private SpriteRenderer manPicture;
 
     public void startMinigame()
     {
         string name = currPatient._name.ToString();
         string age = currPatient._age.ToString();
+        manPicture.sprite = currPatient.bez_rukava.sprite;
         info.text =  name + "," + age;
         currPatient.setElementInfo(currVaccine.Elem_1,0);
         currPatient.setElementInfo(currVaccine.Elem_2,1);
