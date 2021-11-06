@@ -31,6 +31,7 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private SpriteRenderer picture;
     public Sprite[] femalePictures = new Sprite[3];
     public Sprite[] malePictures = new Sprite[3];
+    public Sprite[] transformationPictures = new Sprite[4];
    
 
     [SerializeField] public int bez_rukava;
@@ -214,9 +215,14 @@ public class Patient_info : MonoBehaviour
         {
             mass_prod.SetActive(true);
         }
-        else
-        {
+    }
 
+    public void transformation(int efficiency)
+    {
+        if (efficiency < 100 && efficiency >= 0)
+        {
+            int trans_id = Random.Range(0, transformationPictures.Length - 1);
+            picture.sprite = transformationPictures[trans_id];
         }
     }
 
