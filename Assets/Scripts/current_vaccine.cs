@@ -11,7 +11,7 @@ public class current_vaccine : MonoBehaviour
     public int[] _effectiveElements = new int[4];
     
     [SerializeField] private bar_indicator bar;
-
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,22 +21,27 @@ public class current_vaccine : MonoBehaviour
             Elem_1 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_1();
+            this.gameObject.GetComponent<Animator>().Play("object_insert");
         } else if (Elem_2 == 0)
         {
             Elem_2 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_2();
+            this.gameObject.GetComponent<Animator>().Play("object_insert");
         } else if(Elem_3 == 0)
         {
             Elem_3 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_3();
+            this.gameObject.GetComponent<Animator>().Play("object_insert");
         }
         else if (Elem_4 == 0)
         {
             Elem_4 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_4();
+            this.gameObject.GetComponent<Animator>().Play("object_insert");
+            
         }
         
         
