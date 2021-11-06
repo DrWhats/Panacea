@@ -37,11 +37,15 @@ public class minigameCurrentPatient : MonoBehaviour
     [SerializeField] Sprite[] femalePictures_needle = new Sprite[3];
     [SerializeField] Sprite[] malePictures_needle = new Sprite[3];
 
+    [SerializeField] private Text scoreText;
+    [SerializeField] private int score;
+
     public void startMinigame()
     {
         string name = currPatient._name.ToString();
         string age = currPatient._age.ToString();
         info.text =  name + "," + age;
+        score = 3;
         currPatient.setElementInfo(currVaccine.Elem_1,0);
         currPatient.setElementInfo(currVaccine.Elem_2,1);
         currPatient.setElementInfo(currVaccine.Elem_3,2);
@@ -110,6 +114,20 @@ public class minigameCurrentPatient : MonoBehaviour
     {
         _animatorHand.enabled = true;
         _animatorNeedle.Play("Needle_deactivate");
+
+        if (score <= 0)
+        {
+            MiniGamePanel.Play("Desk_close");
+            _animatorHand.enabled = true;
+            _animatorNeedle.Play("Needle_deactivate");
+            Main_UI.SetActive(true);
+            currPatient.fail_needle();
+        }
+        else
+        {
+            score--;
+            scoreText.text = score.ToString() + "/3";
+        }
     }
 
     void changeSpeed()

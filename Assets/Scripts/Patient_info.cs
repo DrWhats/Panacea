@@ -29,8 +29,8 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private toDefault _toDefault;
 
     [SerializeField] private SpriteRenderer picture;
-    public Sprite[] femalePictures = new Sprite[3];
-    public Sprite[] malePictures = new Sprite[3];
+    public Sprite[] femalePictures = new Sprite[4];
+    public Sprite[] malePictures = new Sprite[4];
     public Sprite[] transformationPictures = new Sprite[4];
    
 
@@ -224,6 +224,13 @@ public class Patient_info : MonoBehaviour
             int trans_id = Random.Range(0, transformationPictures.Length - 1);
             picture.sprite = transformationPictures[trans_id];
         }
+    }
+
+    public void fail_needle()
+    {
+        test_vaccine.SetActive(false);
+        _toDefault.ResetElements();
+        _patientEfficiency.text = "Пациент сбежал";
     }
 
     bool randomBoolean ()
