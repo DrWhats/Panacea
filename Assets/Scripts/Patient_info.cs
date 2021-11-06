@@ -25,6 +25,7 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private Text third_GameObjects;
     [SerializeField] private Text fourth_GameObjects;
     [SerializeField] private GameObject test_vaccine;
+    [SerializeField] private GameObject mass_prod;
     [SerializeField] private toDefault _toDefault;
 
     [SerializeField] private SpriteRenderer picture;
@@ -198,16 +199,27 @@ public class Patient_info : MonoBehaviour
     {
         if (efficiency == -1)
         {
-            _patientEfficiency.text = "НЕ ИСПЫТАНО";
+            _patientEfficiency.text = "Не испытано";
         }
         else
         {
             _efficiency = efficiency;
             _patientEfficiency.text = _efficiency.ToString() + "%";
         }
-        
     }
-    
+
+    public void Mass_Prod_Finish(int efficiency)
+    {
+        if (efficiency == 100)
+        {
+            mass_prod.SetActive(true);
+        }
+        else
+        {
+
+        }
+    }
+
     bool randomBoolean ()
     {
         return (Random.value > 0.5f);

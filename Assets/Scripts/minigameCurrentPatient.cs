@@ -102,6 +102,7 @@ public class minigameCurrentPatient : MonoBehaviour
             }
         }
         currPatient.setEff(effect);
+        currPatient.Mass_Prod_Finish(effect);
     }
 
     public void NeedleFail()
