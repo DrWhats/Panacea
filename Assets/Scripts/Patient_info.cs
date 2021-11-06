@@ -31,7 +31,7 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private SpriteRenderer picture;
     public Sprite[] femalePictures = new Sprite[3];
     public Sprite[] malePictures = new Sprite[3];
-    public Sprite[] transformationPictures = new Sprite[2];
+    public Sprite[] transformationPictures = new Sprite[4];
    
 
     [SerializeField] public int bez_rukava;

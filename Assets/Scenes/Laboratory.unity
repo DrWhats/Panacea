@@ -859,7 +859,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &87276065
 GameObject:
@@ -1000,7 +1001,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &90570305
 GameObject:
@@ -1344,7 +1346,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &117337028
 GameObject:
@@ -2027,7 +2030,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &159229315
 GameObject:
@@ -6170,7 +6174,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &602182711
 GameObject:
@@ -6311,7 +6316,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &608156911
 GameObject:
@@ -6867,7 +6873,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &694653695
 GameObject:
@@ -8497,7 +8504,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &798915175
 GameObject:
@@ -18409,7 +18417,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &1968351175
 GameObject:
@@ -19127,7 +19136,8 @@ MonoBehaviour:
   transformationPictures:
   - {fileID: 21300000, guid: 4c59359269c917a4c887acc2fc5061d5, type: 3}
   - {fileID: 21300000, guid: e8c50a30ea7b25946abda43f0583ada3, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
+  - {fileID: 21300000, guid: 2055b22bd3e832d44aa412a4d3cc4547, type: 3}
   bez_rukava: 0
 --- !u!1 &2047698314
 GameObject:
