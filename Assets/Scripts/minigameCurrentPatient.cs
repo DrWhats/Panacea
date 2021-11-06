@@ -34,11 +34,13 @@ public class minigameCurrentPatient : MonoBehaviour
     [SerializeField] private Animator MiniGamePanel;
     [SerializeField] private SpriteRenderer manPicture;
 
+    [SerializeField] Sprite[] femalePictures_needle = new Sprite[3];
+    [SerializeField] Sprite[] malePictures_needle = new Sprite[3];
+
     public void startMinigame()
     {
         string name = currPatient._name.ToString();
         string age = currPatient._age.ToString();
-        manPicture.sprite = currPatient.bez_rukava.sprite;
         info.text =  name + "," + age;
         currPatient.setElementInfo(currVaccine.Elem_1,0);
         currPatient.setElementInfo(currVaccine.Elem_2,1);
@@ -47,9 +49,24 @@ public class minigameCurrentPatient : MonoBehaviour
         currPatient.setEff(-1);
 
         InvokeRepeating("changeSpeed",2.0f,2.0f);
+        setPicture();
        
 
 
+    }
+
+    public void setPicture()
+    {
+        if (currPatient.sex)
+        {
+            manPicture.sprite = femalePictures_needle[currPatient.bez_rukava];
+
+
+        }
+        else
+        {
+            manPicture.sprite = malePictures_needle[currPatient.bez_rukava];
+        }
     }
 
     public void stopNeedle()

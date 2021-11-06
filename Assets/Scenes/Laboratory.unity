@@ -733,15 +733,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &87276065
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,15 +868,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &90570305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,15 +1085,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &117337028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,15 +1683,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &159229315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,7 +1878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.544}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: -144}
+  m_AnchoredPosition: {x: 430, y: -155}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &181241186
@@ -2359,6 +2327,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -2375,18 +2355,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3039,6 +3007,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -3055,18 +3035,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3902,6 +3870,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -3918,18 +3898,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4679,6 +4647,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -4695,18 +4675,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4887,15 +4855,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &602182711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5030,15 +4990,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &608156911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5416,15 +5368,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &694653695
 GameObject:
   m_ObjectHideFlags: 0
@@ -5687,6 +5631,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -5703,18 +5659,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6628,6 +6572,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -6644,18 +6600,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6836,15 +6780,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &798915175
 GameObject:
   m_ObjectHideFlags: 0
@@ -7815,6 +7751,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -7831,18 +7779,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9289,6 +9225,14 @@ MonoBehaviour:
   Main_UI: {fileID: 1154532210}
   MiniGamePanel: {fileID: 1145821317}
   manPicture: {fileID: 1536323035}
+  femalePictures_needle:
+  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
+  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
+  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
+  malePictures_needle:
+  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
+  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
+  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
 --- !u!1 &1146026502
 GameObject:
   m_ObjectHideFlags: 0
@@ -10011,6 +9955,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Desk_show
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1145821317}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -10027,18 +9983,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14168,6 +14112,14 @@ MonoBehaviour:
   Main_UI: {fileID: 1154532210}
   MiniGamePanel: {fileID: 1145821317}
   manPicture: {fileID: 0}
+  femalePictures_needle:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  malePictures_needle:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1880214569
 GameObject:
   m_ObjectHideFlags: 0
@@ -15485,15 +15437,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &1968351175
 GameObject:
   m_ObjectHideFlags: 0
@@ -16205,15 +16149,7 @@ MonoBehaviour:
   - {fileID: 2241596077962157201, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
   - {fileID: 3422612927163727757, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
   - {fileID: 1899540294685825407, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  femalePictures_needle:
-  - {fileID: 372555573954562242, guid: b857cee6d02d3da4fa8ec4f16a01ff87, type: 3}
-  - {fileID: 7251909916442185236, guid: 68b87da90367be04d85922b12e62d19b, type: 3}
-  - {fileID: -5865074746040668138, guid: 75d70105361ccbe4a9f267b2770ad47a, type: 3}
-  malePictures_needle:
-  - {fileID: -4899539289570892886, guid: 45ddda0eb0d7c3447ba1d7100481c416, type: 3}
-  - {fileID: 1250874964409706020, guid: a549e07aeeb529649a92dfa33d1965d2, type: 3}
-  - {fileID: -4327428613379054454, guid: 23c392f481988224fb39e58cb03849e5, type: 3}
-  bez_rukava: {fileID: 0}
+  bez_rukava: 0
 --- !u!1 &2047698314
 GameObject:
   m_ObjectHideFlags: 0
@@ -17066,10 +17002,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
+      - m_Target: {fileID: 1154532210}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17078,10 +17014,10 @@ MonoBehaviour:
           m_StringArgument: Desk_show
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2106558630}
-        m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
-        m_MethodName: startMiniGame
-        m_Mode: 1
+      - m_Target: {fileID: 1145821317}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17090,10 +17026,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2106558630}
+        m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
+        m_MethodName: startMiniGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

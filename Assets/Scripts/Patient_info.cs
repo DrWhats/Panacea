@@ -30,10 +30,9 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private SpriteRenderer picture;
     public Sprite[] femalePictures = new Sprite[3];
     public Sprite[] malePictures = new Sprite[3];
-    public Sprite[] femalePictures_needle = new Sprite[3];
-    public Sprite[] malePictures_needle = new Sprite[3];
+   
 
-    public SpriteRenderer bez_rukava;
+    [SerializeField] public int bez_rukava;
 
     private string[] _patientNamesFemale = 
         { "Диана", "Екатерина", "Полина", "Алиса", "Ксения", "Марина", "Мария", "Кира", "Ирина", "Вероника"};
@@ -178,7 +177,7 @@ public class Patient_info : MonoBehaviour
         {
             int sprite_id = Random.Range(0, femalePictures.Length - 1);
             picture.sprite = femalePictures[sprite_id];
-            bez_rukava.sprite = femalePictures_needle[sprite_id];
+            bez_rukava = sprite_id;
 
 
         }
@@ -186,7 +185,7 @@ public class Patient_info : MonoBehaviour
         {
             int sprite_id = Random.Range(0, malePictures.Length - 1);
             picture.sprite = malePictures[sprite_id];
-            bez_rukava.sprite = malePictures_needle[sprite_id];
+            bez_rukava = sprite_id;
         }
     }
 
