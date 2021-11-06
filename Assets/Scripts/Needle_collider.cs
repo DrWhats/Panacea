@@ -11,7 +11,12 @@ public class Needle_collider : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("NEEDLE");
-        game.NeedleSuccess();
+        if (other.gameObject.transform.tag == "aim")
+        {
+           
+            game.NeedleSuccess();
+        }
+        
         
     }
 
