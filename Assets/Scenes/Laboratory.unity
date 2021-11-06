@@ -3115,6 +3115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 87276068}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &252757577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3159,30 +3162,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 252757576}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -3899,6 +3878,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &327755298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4356,6 +4338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 83921052}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &355289209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4400,30 +4385,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 355289208}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -5335,6 +5296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &467444828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5631,6 +5595,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 103580587}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &492174229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5675,30 +5642,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 492174228}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -5833,30 +5776,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 496291221}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -5866,7 +5785,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Desk_show
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &496291219
@@ -5921,6 +5840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 1966977760}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!1 &501905004
 GameObject:
   m_ObjectHideFlags: 0
@@ -6408,6 +6330,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 602182714}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &538496733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6452,30 +6377,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 538496732}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -7630,6 +7531,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 594947827}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &696154400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7674,30 +7578,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 696154399}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -7800,6 +7680,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &712151245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8738,6 +8621,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 151594316}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &768457869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8782,30 +8668,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 768457868}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -10256,6 +10118,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &942771315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10431,6 +10296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 693244519}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &953317392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10475,30 +10343,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 953317391}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -11871,6 +11715,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1142524720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12099,6 +11946,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1146026505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12961,6 +12811,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 789077677}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &1239800882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13005,30 +12858,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1239800881}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame
@@ -13332,6 +13161,18 @@ MonoBehaviour:
           m_StringArgument: Desk_show
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1287007013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13622,6 +13463,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1319369359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15688,6 +15532,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1526195258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19507,6 +19354,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1968351178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20226,6 +20076,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 0}
   minigamePanel: {fileID: 0}
+  currVaccine: {fileID: 0}
+  main_ui: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &2047698317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21405,6 +21258,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentPatient: {fileID: 2029297310}
   minigamePanel: {fileID: 1145821318}
+  currVaccine: {fileID: 1039704501}
+  main_ui: {fileID: 1154532210}
+  anim: {fileID: 1145821317}
 --- !u!114 &2106558631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21449,30 +21305,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1154532210}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1145821317}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Desk_show
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2106558630}
         m_TargetAssemblyTypeName: Test_vaccine, Assembly-CSharp
         m_MethodName: startMiniGame

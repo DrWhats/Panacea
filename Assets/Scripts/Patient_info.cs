@@ -34,7 +34,6 @@ public class Patient_info : MonoBehaviour
     public Sprite[] malePictures = new Sprite[4];
     public Sprite[] transformationPictures = new Sprite[4];
 
-
     [SerializeField] public int bez_rukava;
 
     private string[] _patientNamesFemale =
@@ -63,6 +62,7 @@ public class Patient_info : MonoBehaviour
     // Стартуем и ставим ,что нет данных
     void Start()
     {
+
         if (_elementsID[0] != 0)
         {
             Element_first = comp_dict[_elementsID[0]];
@@ -117,15 +117,13 @@ public class Patient_info : MonoBehaviour
         setPicture();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
 
     //Устанавливаем ID элемента из словаря в один из четырех элементов вакцины (от 0 до 3)
     public void setElementInfo(int setElement, int toPosition)
     {
         _elementsID[toPosition] = setElement;
+
+        
 
         if (_elementsID[0] != 0)
         {

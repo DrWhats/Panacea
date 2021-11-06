@@ -46,6 +46,7 @@ public class minigameCurrentPatient : MonoBehaviour
         string age = currPatient._age.ToString();
         info.text = name + "," + age;
         score = 3;
+        scoreText.text = "3/3";
         currPatient.setElementInfo(currVaccine.Elem_1, 0);
         currPatient.setElementInfo(currVaccine.Elem_2, 1);
         currPatient.setElementInfo(currVaccine.Elem_3, 2);
@@ -118,6 +119,7 @@ public class minigameCurrentPatient : MonoBehaviour
             _animatorNeedle.Play("Needle_deactivate");
             Main_UI.SetActive(true);
             currPatient.setEff(-2);
+            currVaccine.resetElements();
         }
         else
         {

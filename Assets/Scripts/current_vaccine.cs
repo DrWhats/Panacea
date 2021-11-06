@@ -11,7 +11,6 @@ public class current_vaccine : MonoBehaviour
     public int[] _effectiveElements = new int[4];
     
     [SerializeField] private bar_indicator bar;
-    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -55,7 +54,15 @@ public class current_vaccine : MonoBehaviour
         _effectiveElements[3] = Random.Range(10, 12);
         
     }
-    
+
+    public bool check_vac()
+    {
+        if (Elem_1 != 0)
+        {
+            return (true);
+        }
+        else return (false);
+    }
 
     public void resetElements()
     {
