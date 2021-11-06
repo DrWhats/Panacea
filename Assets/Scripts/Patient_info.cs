@@ -13,7 +13,7 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private bool _vaccinated; //Галочка "вакциниррван" или нет
     [SerializeField] private int _efficiency; //Показатель эффективности вакцины
     [SerializeField] private Text _patientEfficiency;
-
+    [SerializeField] public bool sex; //true - female, false - male
     
     [SerializeField] private int[] _elementsID = new int[4];
     public string Element_first;
@@ -24,10 +24,18 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private Text second_GameObjects;
     [SerializeField] private Text third_GameObjects;
     [SerializeField] private Text fourth_GameObjects;
-
     [SerializeField] private GameObject test_vaccine;
     [SerializeField] private toDefault _toDefault;
+
+    [SerializeField] private SpriteRenderer picture;
+    public Sprite[] femalePictures = new Sprite[1];
+    public Sprite[] malePictures = new Sprite[1];
    
+    private string[] _patientNamesFemale = 
+        { "Диана", "Екатерина", "Полина", "Алиса", "Ксения", "Марина", "Мария", "Кира", "Ирина", "Вероника"};
+
+    private string[] _patientNamesMale =
+        { "Василий", "Петр", "Кирилл", "Данил", "Олег", "Лев", "Руслан", "Юрий", "Анатолий", "Константин" };
     
     Dictionary<int, string> comp_dict = new Dictionary<int, string>
     {
@@ -72,6 +80,32 @@ public class Patient_info : MonoBehaviour
             Element_fourth = comp_dict[_elementsID[3]];
             fourth_GameObjects.text = Element_fourth;
         } else fourth_GameObjects.text = "Нет данных";
+
+        if (_patientID != 1)
+        {
+            this.gameObject.SetActive(false);
+        }        
+        Debug.Log("PATIENT");
+            
+ 
+        setAge(Random.Range(20, 30).ToString());
+        setSex();
+        Debug.Log(sex);
+            
+        if (sex == true)
+        {
+            setName(_patientNamesFemale[Random.Range(0, _patientNamesFemale.Length-1)]);
+            Debug.Log("ТЁЛКА");
+                
+        }
+        else if (sex == false)
+        {
+            setName(_patientNamesMale[Random.Range(0, _patientNamesMale.Length-1)]);
+            Debug.Log("МУЖЫЫЫК");
+        }
+            
+        setPicture();
+        
     }
 
     // Update is called once per frame
@@ -134,6 +168,22 @@ public class Patient_info : MonoBehaviour
         
     }
 
+    public void setPicture( )
+    {
+        if (sex)
+        {
+            //picture.GetComponent<SpriteRenderer>().sprite = femalePictures[Random.Range(0, femalePictures.Length-1)];
+            picture.sprite = femalePictures[0];
+
+        } else picture.sprite = malePictures[0];
+        //else picture.GetComponent<SpriteRenderer>().sprite = malePictures[Random.Range(0, malePictures.Length)-1];
+    }
+
+    public void setSex()
+    {
+        sex = randomBoolean();
+    }
+
     public void setEff(int efficiency)
     {
         if (efficiency == -1)
@@ -146,5 +196,10 @@ public class Patient_info : MonoBehaviour
             _patientEfficiency.text = _efficiency.ToString() + "%";
         }
         
+    }
+    
+    bool randomBoolean ()
+    {
+        return (Random.value > 0.5f);
     }
 }
