@@ -14,13 +14,14 @@ public class current_vaccine : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        other.gameObject.GetComponent<DnD2>().sound_play();
         if (Elem_1 == 0)
         {
             Elem_1 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_1();
             this.gameObject.GetComponent<Animator>().Play("object_insert");
+
         } else if (Elem_2 == 0)
         {
             Elem_2 = other.gameObject.GetComponent<element>().id;

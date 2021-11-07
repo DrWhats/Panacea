@@ -5,6 +5,7 @@ public class DnD2 : MonoBehaviour
 {
     private Vector3 screenPoint;
     private Vector3 offset;
+    [SerializeField] private AudioSource audio;
 
     void OnMouseDown()
     {
@@ -17,5 +18,10 @@ public class DnD2 : MonoBehaviour
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
         transform.position = curPosition;
+    }
+
+    public void sound_play()
+    {
+        audio.Play();
     }
 }
