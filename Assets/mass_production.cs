@@ -17,7 +17,7 @@ public class mass_production : MonoBehaviour
         
     }
 
-    void end()
+    public void end()
     {
         SceneManager.LoadScene(2);
     }
