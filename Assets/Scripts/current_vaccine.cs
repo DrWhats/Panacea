@@ -11,10 +11,16 @@ public class current_vaccine : MonoBehaviour
     public int[] _effectiveElements = new int[4];
     
     [SerializeField] private bar_indicator bar;
+    [SerializeField] private AudioSource audio;
+    private AudioClip Clip;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other.gameObject.GetComponent<DnD2>().sound_play();
+
+        Clip = other.gameObject.GetComponent<AudioSource>().clip;
+        audio.clip = Clip; 
+        audio.Play();
+
         if (Elem_1 == 0)
         {
             Elem_1 = other.gameObject.GetComponent<element>().id;

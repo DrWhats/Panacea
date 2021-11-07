@@ -5,7 +5,7 @@ public class DnD2 : MonoBehaviour
 {
     private Vector3 screenPoint;
     private Vector3 offset;
-    [SerializeField] private AudioSource audio;
+    public AudioSource audio;
 
     void OnMouseDown()
     {
