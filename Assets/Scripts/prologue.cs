@@ -15,6 +15,7 @@ public class prologue : MonoBehaviour
     public bool busStopped = false;
     [SerializeField] private GameObject button_continue;
     [SerializeField] private GameObject button_next;
+    [SerializeField] private AudioSource audio;
     
     
     void Start()
@@ -57,6 +58,8 @@ public class prologue : MonoBehaviour
         if (currentText == 1)
         {
             Character.GetComponent<Animator>().Play("chel_smoke");
+            audio.Play();
+            
             
 
         }
@@ -64,6 +67,6 @@ public class prologue : MonoBehaviour
 
     public void NextPart()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
