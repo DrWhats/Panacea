@@ -1,4 +1,4 @@
-using UnityEditor;
+
 using UnityEngine;
 
 public class bar_indicator : MonoBehaviour
