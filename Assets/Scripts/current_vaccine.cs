@@ -17,12 +17,12 @@ public class current_vaccine : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        Clip = other.gameObject.GetComponent<AudioSource>().clip;
-        audio.clip = Clip; 
-        audio.Play();
 
         if (Elem_1 == 0)
         {
+            Clip = other.gameObject.GetComponent<AudioSource>().clip;
+            audio.clip = Clip;
+            audio.Play();
             Elem_1 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_1();
@@ -30,12 +30,18 @@ public class current_vaccine : MonoBehaviour
 
         } else if (Elem_2 == 0)
         {
+            Clip = other.gameObject.GetComponent<AudioSource>().clip;
+            audio.clip = Clip;
+            audio.Play();
             Elem_2 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_2();
             this.gameObject.GetComponent<Animator>().Play("object_insert");
         } else if(Elem_3 == 0)
         {
+            Clip = other.gameObject.GetComponent<AudioSource>().clip;
+            audio.clip = Clip;
+            audio.Play();
             Elem_3 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_3();
@@ -43,6 +49,9 @@ public class current_vaccine : MonoBehaviour
         }
         else if (Elem_4 == 0)
         {
+            Clip = other.gameObject.GetComponent<AudioSource>().clip;
+            audio.clip = Clip;
+            audio.Play();
             Elem_4 = other.gameObject.GetComponent<element>().id;
             other.gameObject.SetActive(false);
             bar.bar_4();
