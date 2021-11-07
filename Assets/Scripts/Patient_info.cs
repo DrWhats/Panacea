@@ -11,7 +11,7 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private Text _patientName;
     [SerializeField] public string _age; //Возраст
     [SerializeField] private Text _patientAge;
-    [SerializeField] private bool _vaccinated; //Галочка "вакциниррван" или нет
+    [SerializeField] public bool _vaccinated; //Галочка "вакциниррван" или нет
     [SerializeField] public int _efficiency; //Показатель эффективности вакцины
     [SerializeField] private Text _patientEfficiency;
     [SerializeField] public bool sex; //true - female, false - male
@@ -28,6 +28,8 @@ public class Patient_info : MonoBehaviour
     [SerializeField] private GameObject test_vaccine;
     [SerializeField] private GameObject mass_prod;
     [SerializeField] private toDefault _toDefault;
+
+    [SerializeField] private restart res;
 
     [SerializeField] private SpriteRenderer picture;
     public Sprite[] femalePictures = new Sprite[4];
@@ -170,6 +172,7 @@ public class Patient_info : MonoBehaviour
     {
         test_vaccine.SetActive(false);
         _vaccinated = true;
+        res.check_restart();
         _toDefault.ResetElements();
     }
 

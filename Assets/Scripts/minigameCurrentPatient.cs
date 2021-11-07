@@ -119,6 +119,7 @@ public class minigameCurrentPatient : MonoBehaviour
             Main_UI.SetActive(true);
             currPatient.setEff(-2);
             currVaccine.resetElements();
+            currPatient.Vaccinated();
         }
         else
         {
